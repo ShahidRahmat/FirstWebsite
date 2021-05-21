@@ -168,3 +168,9 @@ th, td {
 #line {
   color: white;
 }
+
+
+#ending {
+  color: orange;
+  font-size: 50px;
+}
