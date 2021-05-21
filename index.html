@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="https://shahidrahmat.github.io/style.css">
+    <script src="script.js"></script>
+    <title>
+      Shahid's Website </title>
+  </head>
+  <body style = " background-color: black !important ">
+    <header>
+          <p id="text"></p>
+  <script>
+    var cursor = true;
+        var speed = 250;
+        setInterval(() => {
+          if(cursor) {
+            document.getElementById('cursor').style.opacity = 0;
+            cursor = false;
+          }else {
+            document.getElementById('cursor').style.opacity = 1;
+            cursor = true;
+          }
+        }, speed);
+
+var p = document.getElementById('text');
+p.innerHTML = '';
+var n = 0;
+var str = 'Welcome to my website';
+var typeTimer = setInterval(function() {
+  n = n + 1;
+  p.innerHTML = "> " + str.slice(0, n);
+  if (n === str.length) {
+    clearInterval(typeTimer);
+    p.innerHTML = "> " + str;
+    n = 0;
+    setInterval(function() {
+
+      if (n === 0) {
+        p.innerHTML = "> " + str + "|"
+        n = 1;
+      } else {
+        p.innerHTML = "> " + str
+        n = 0;
+      };
+    }, 500);
+  };
+}, 60)
+      </script>
+    </header>
+ <p id="line" style = "text-align: center">
+____________________________________________________________
+</p>
+<br>
+  
+<button id = "b1" onclick="typeWriter()" class = "center" style = "background-color:#9b00e8;">What languages do I know/learn ?</button>
+<p id = "top">
+</p>
+<br>
+<button id = "b2" onclick="typeWriter1()" class = "center" style = "background-color: #9b00e8">Where do I learn coding from?</button>
+<p id = "mid"></p>
+<br>
+<button id = "b3" onclick="typeWriter2()" class = "center" style = "background-color: #9b00e8">About Me</button>
+<p id = "end"></p>
+
+<p id="line" style = "text-align: center">
+____________________________________________________________
+</p>
+
+  <br>
+<div class="myDIV" style = "color: #e8ba3a; font-size: 21px;">Days Of Python</div>
+<div class="hide" style = "font-size: 20px text-align: center color: #43b581">This was from a Udemy course to make a project everyday for a period of time which I stopped after a while.</div>
+
+  <br>
+  
+ <br>
+  <div class = "tab">
+<table style = "
+    width:80%; 
+    margin-left:10%; 
+    margin-right:10%
+    color: #dc143c"> 
+   <tr>
+    <th style="text-align:center">Day # </th>
+    <th style="text-align:center">Project Name </th> 
+    <th style="text-align:center">Python Skill</th>
+  </tr>
+  <tr>
+    <td style="text-align:center">Day 1</td>
+    <td style="text-align:center">Name Generator</td>
+    <td style="text-align:center">String Concatenation</td>
+  </tr>
+  <tr>
+    <td style="text-align:center">Day 2</td>
+    <td style="text-align:center">Tip Calculator</td>
+    <td style="text-align:center">Mathematical and Relational Operators</td>
+  </tr>
+  <tr>
+   <td style="text-align:center">Day 3</td>
+   <td style="text-align:center">Treasure Island</td>
+   <td style="text-align:center">If/Else Statements</td>
+  </tr>
+  <tr>
+   <td style="text-align:center">Day 4</td>
+   <td style="text-align:center">Rock, Paper, Scissors</td>
+   <td style="text-align:center">Import Random</td>
+  </tr>
+  <tr>
+   <td style="text-align:center">Day 5</td>
+   <td style="text-align:center">Random Password Generator</td>
+   <td style="text-align:center">For Loops</td>
+  </tr>
+  <tr>
+   <td style="text-align:center">Day 6</td>
+   <td style="text-align:center">Escaping the maze</td>
+   <td style="text-align:center">While Loops</td>
+  </tr>
+  <tr>
+   <td style="text-align:center">Day 7</td>
+   <td style="text-align:center">Hangman</td>
+   <td style="text-align:center">len() and append() functions, ASCII art</td>
+  </tr>
+  </table>
+  </div>
+  
+  <p id="line" style = "text-align: center">
+____________________________________________________________
+</p>
+
+<div class="row">
+  <div class="column">
+  <a href="https://github.com/ShahidRahmat">
+    <img src="https://www.logo.wine/a/logo/GitHub/GitHub-Icon-White-Dark-Background-Logo.wine.svg" alt="Github" width = "70" height = "70">
+    </a>
+  </div>
+  <div class="column">
+  <a href="mailto: shahid.rahmats@gmail.com">
+    <img src="https://thumbs.dreamstime.com/b/email-icon-black-background-flat-style-vector-illustration-168420524.jpg" alt="Gmail" width = "100" height = "100">
+    </a>
+  </div>
+       <div class="column">
+  <a href="https://www.linkedin.com/in/shahid-rahmat-9a104a1b4">
+    <img src="https://www.freeiconspng.com/uploads/displaying-19-gallery-images-for-linkedin-logo-png-25.png" alt="Linkedin" width = "60" height = "60">
+    </a>
+  </div>
+</div>
+</body>
+  <br><br>
+</html>
