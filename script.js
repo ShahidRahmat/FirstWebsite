@@ -1,5 +1,5 @@
 var i = 0;
-var txt = 'I know HTML, CSS and am learning Python and JavaScript.';
+var txt = 'I know HTML, CSS and am learning Python, JavaScript and C#.';
 var speed1 = 50;
 
 function typeWriter() {
@@ -12,7 +12,7 @@ function typeWriter() {
 
 var m = 0;
 var speed4 = 35;
-var ans = 'I learn these languages and their applications through platforms and services such as  •Codecademy, 	•Udemy, 	•W3Schools and 	•Youtube.';
+var ans = 'I learn these languages and their applications through platforms and services such as  •Codecademy, 	•Udemy and 	•W3Schools';
 
 function typeWriter1() {
   if (m < ans.length) {
