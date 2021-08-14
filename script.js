@@ -1,5 +1,5 @@
 var i = 0;
-var txt = 'I know HTML, CSS and am learning Python, JavaScript and C#.';
+var txt = 'I know HTML, CSS, Python, JavaScript and am learning R and C#.';
 var speed1 = 50;
 
 function typeWriter() {
